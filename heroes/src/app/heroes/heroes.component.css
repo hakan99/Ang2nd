@@ -1,4 +1,35 @@
-input {
+
+  
+  label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display:block;
+  padding-bottom: 1rem;
+}
+  input {
     padding: .5rem;
+    background-color: rgb(145, 7, 7);
+  }
+
+  
+  h2
+  {
+    background-color: rgb(21, 121, 66);
+  }
+  
+  .heroes  {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+  }
+  .heroes:hover {
+    color: #2c3a41;
+    background-color:  #3d0a0f;
+    left: .1em;
   }
   
