@@ -14,6 +14,7 @@ export class HeroesComponent implements OnInit {
 
   heroes = HEROES;
   selectedHero?: Hero;
+  s: string="";
 
   constructor() { }
 
@@ -23,4 +24,9 @@ export class HeroesComponent implements OnInit {
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
   }
+  sendIt(event :string)
+  {
+    this.s=event  
+  }
+
 }
